@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,k;
+printf("enter number of values \n");
+scanf("%d",&n);
+printf("enter the value\n");
+scanf("%d",&k);
+for(i=1;i<=n;i++)
+if(1%k==0)
+printf("%d",i);
+return 0;
+}
